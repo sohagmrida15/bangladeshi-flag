@@ -1,0 +1,42 @@
+.flag-body{
+    margin: 50px auto;
+    height: 250px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.flag-handle{
+    height: 500px;
+    width: 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: grey;
+    top: -10px;
+    position: relative;
+}
+.brick{
+    position: absolute;
+    background-color: brown;
+}
+.brick-1{
+    height: 40px;
+    width: 60px;
+    bottom: -40px;
+    left: -100%;
+}
+.brick-2{
+    height: 80px;
+    width: 120px;
+    bottom: -120px;
+    left: -250%;
+}
